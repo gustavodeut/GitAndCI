@@ -13,5 +13,11 @@ namespace ProjCI.Controllers
         {
             return View();
         }
+
+        public int soma(int valor1, int valor2)
+        {
+            //pracatá
+            return valor1 + valor2;
+        }
     }
 }
