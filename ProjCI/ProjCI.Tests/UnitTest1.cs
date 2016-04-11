@@ -9,19 +9,23 @@ namespace ProjCI.Tests
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
-        {
-
-        }
-
-        [TestMethod]
-        public void soma()
+        public void Soma()
         {
             HomeController controller = new HomeController();
 
-            int resultado = controller.soma(1, 1);
+            int resultado = controller.Soma(1, 1);
 
             Assert.AreEqual(2, resultado);
+        }
+
+        [TestMethod]
+        public void Subtrai()
+        {
+            HomeController controller = new HomeController();
+
+            int resultado = controller.Subtrai(1, 1);
+
+            Assert.AreEqual(0, resultado);
         }
     }
 }

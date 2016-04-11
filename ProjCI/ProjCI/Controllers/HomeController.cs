@@ -8,16 +8,19 @@ namespace ProjCI.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: Home
         public ActionResult Index()
         {
             return View();
         }
 
-        public int soma(int valor1, int valor2)
+        public int Soma(int valor1, int valor2)
         {
-            //pracatá
-            return valor1 + valor2 + 1;
+            return valor1 + valor2;
+        }
+
+        public int Subtrai(int valor1, int valor2)
+        {
+            return valor1 - valor2;
         }
     }
 }
