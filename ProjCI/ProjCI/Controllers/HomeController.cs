@@ -17,7 +17,7 @@ namespace ProjCI.Controllers
         public int soma(int valor1, int valor2)
         {
             //pracatá
-            return valor1 + valor2;
+            return valor1 + valor2 + 1;
         }
     }
 }
