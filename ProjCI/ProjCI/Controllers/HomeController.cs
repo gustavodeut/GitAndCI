@@ -18,5 +18,15 @@ namespace ProjCI.Controllers
         {
             return valor1 - valor2;
         }
+
+        public decimal Divide(int divisor, int dividendo)
+        {
+            return divisor / dividendo;
+        }
+
+        public int Multiplica(int valor1, int valor2)
+        {
+            return valor1 * valor2;
+        }
     }
 }

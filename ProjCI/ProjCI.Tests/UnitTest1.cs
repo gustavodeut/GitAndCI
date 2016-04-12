@@ -23,7 +23,27 @@ namespace ProjCI.Tests
 
             int resultado = controller.Subtrai(1, 1);
 
-            Assert.AreEqual(3, resultado);
+            Assert.AreEqual(0, resultado);
+        }
+
+        [TestMethod]
+        public void Dividendo()
+        {
+            HomeController controller = new HomeController();
+
+            decimal resultado = controller.Divide(10, 2);
+
+            Assert.AreEqual(5, resultado);
+        }
+
+        [TestMethod]
+        public void Multiplica()
+        {
+            HomeController controller = new HomeController();
+
+            decimal resultado = controller.Divide(10, 2);
+
+            Assert.AreEqual(20, resultado);
         }
     }
 }
