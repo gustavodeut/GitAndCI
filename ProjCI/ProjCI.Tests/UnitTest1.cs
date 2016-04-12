@@ -27,7 +27,7 @@ namespace ProjCI.Tests
         }
 
         [TestMethod]
-        public void Dividendo()
+        public void Divide()
         {
             HomeController controller = new HomeController();
 
@@ -41,7 +41,7 @@ namespace ProjCI.Tests
         {
             HomeController controller = new HomeController();
 
-            decimal resultado = controller.Divide(10, 2);
+            decimal resultado = controller.Multiplica(10, 2);
 
             Assert.AreEqual(20, resultado);
         }
