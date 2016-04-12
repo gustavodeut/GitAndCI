@@ -23,7 +23,7 @@ namespace ProjCI.Tests
 
             int resultado = controller.Subtrai(1, 1);
 
-            Assert.AreEqual(1, resultado);
+            Assert.AreEqual(3, resultado);
         }
     }
 }
