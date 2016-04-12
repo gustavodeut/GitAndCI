@@ -44,7 +44,7 @@ namespace ProjCI.Tests
 
             decimal resultado = controller.Multiplica(10, 2);
 
-            Assert.AreEqual(21, resultado);
+            Assert.AreEqual(20, resultado);
         }
     }
 }
