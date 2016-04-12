@@ -17,6 +17,7 @@ namespace ProjCI.Controllers
         public int Subtrai(int valor1, int valor2)
         {
             return valor1 - valor2;
+            //pracatá
         }
 
         public decimal Divide(int divisor, int dividendo)

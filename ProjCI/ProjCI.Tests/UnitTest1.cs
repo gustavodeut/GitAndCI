@@ -40,6 +40,7 @@ namespace ProjCI.Tests
         [TestMethod]
         public void Multiplica()
         {
+            //pracatá
             HomeController controller = new HomeController();
 
             decimal resultado = controller.Multiplica(10, 2);
