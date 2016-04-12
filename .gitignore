@@ -45,3 +45,8 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+/ProjCI/ProjCI/bin/*
+/ProjCI/ProjCI/obj/*
+/ProjCI/ProjCI.Tests/bin/*
+/ProjCI/ProjCI.Tests/obj/*
