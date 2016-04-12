@@ -46,7 +46,11 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-/ProjCI/ProjCI/bin/*
-/ProjCI/ProjCI/obj/*
-/ProjCI/ProjCI.Tests/bin/*
-/ProjCI/ProjCI.Tests/obj/*
+
+#Visual Studio files
+*.[Oo]bj
+*.[Cc]ache
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
